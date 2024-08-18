@@ -37,6 +37,13 @@ import talkernetwork from "./company/talkernetwork.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ethpredictor from "./ethpredictor.png";
+import cinemaTrends from "./cinemaTrends.png";
+import realEstateXplorer from "./realEstateXplorer.png";
+import shadowCalculator from "./shadowCalculator.png";
+import cryptoApp from "./cryptoApp.png";
+import ticTacToe from "./tic_tac_toe.png"
+
 
 export {
   logo,
@@ -75,4 +82,10 @@ export {
   pandas,
   sql,
   cpp,
+  ethpredictor,
+  cryptoApp,
+  realEstateXplorer,
+  cinemaTrends,
+  shadowCalculator,
+  ticTacToe,
 };

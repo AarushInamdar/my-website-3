@@ -15,9 +15,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   apple,
   talkernetwork,
@@ -27,6 +24,12 @@ import {
   swift,
   python,
   sql,
+  ethpredictor,
+  cinemaTrends,
+  realEstateXplorer,
+  shadowCalculator,
+  cryptoApp,
+  ticTacToe
 } from "../assets";
 
 export const navLinks = [
@@ -162,67 +165,130 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ethereum Price Predictor",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Python-based application that forecasts Ethereum prices using Prophet and NumPy. This project demonstrates the ability to handle large datasets, perform hyperparameter tuning, and generate accurate predictions with visualized trends.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "prophet",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "numpy",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ethpredictor,
+    source_code_link: "https://github.com/AarushInamdar/EthereumPricePredictor/tree/main",
   },
   {
-    name: "Job IT",
+    name: "DataAlchemy: Cinema Trends Analyzer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A data analysis tool that visualizes cinema trends using Python libraries such as Pandas and Seaborn. The app can analyze relationships between various factors, such as revenue, movie duration, and director influence, providing valuable insights.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "seaborn",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: cinemaTrends,
+    source_code_link: "https://github.com/AarushInamdar/data-analytics-visualizer",
   },
   {
-    name: "Trip Guide",
+    name: "Real Estate Xplorer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Next.js web application for property buyers that features dynamic property filtering, geolocation-based search, and seamless API integrations. The project showcases proficiency in React and backend development with optimized search functionality.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: realEstateXplorer,
+    source_code_link: "https://github.com/AarushInamdar/Real-Estate-Website",
+  },
+  {
+    name: "3D Graphics Shadow and Brightness Calculator",
+    description:
+      "A Python project utilizing NumPy to calculate the brightness and shadow effects on 3D geometric objects. This project highlights skills in mathematical modeling, 3D graphics rendering, and performance optimization for spatial data structures.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "numpy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "3d-graphics",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shadowCalculator,
+    source_code_link: "https://github.com/AarushInamdar/Graphical-Mesh-Shadow-and-Brightness-Calculator",
+  },
+  {
+    name: "CryptoApp",
+    description:
+      "A React.js application that ranks and displays cryptocurrency market performance, with interactive trend visualizations and real-time updates. This project emphasizes the use of Redux for state management and server-side rendering for performance.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cryptoApp,
+    source_code_link: "https://github.com/AarushInamdar/CryptoApp",
+  },
+  {
+    name: "Two-Player Tic Tac Toe GUI",
+    description:
+      "A Python-based Tic Tac Toe game featuring a graphical user interface (GUI) for two players. This project showcases skills in Python GUI development using libraries such as Tkinter, and emphasizes user interaction and game logic implementation.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tkinter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ticTacToe,
+    source_code_link: "https://github.com/AarushInamdar/two-player-tic-tac-toe-gui"
   },
 ];
 
