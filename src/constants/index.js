@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  apple,
+  talkernetwork,
+  trl11
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Experience",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Startup and Corporate Background",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI/ML Emphasis",
     icon: creator,
   },
 ];
@@ -116,84 +119,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Engineering Intern",
+    company_name: "TRL11",
+    icon: trl11,
+    iconBg: "#FFFFFF",
+    date: "June 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected a scalable database migration framework for SQLite and NoSQL schemas, ensuring seamless version upgrades and rollbacks with SQLAlchemy and FastAPI endpoints.",
+      "Enabled real-time TCP network camera browsing and memory optimization, improving CPU system stability by 33% through efficient throttling and memory management.",
+      "Boosted OS maintenance efficiency by 25% by developing import/export and factory reset features, enhancing Bash scripts, and automating .deb file depackaging and installation.",
+      "Augmented the Power Management Unit (PMU) Utility with additional C++ functions and Python bindings, improving power management efficiency by 20%."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineering Intern",
+    company_name: "Apple",
+    icon: apple,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "January 2024 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded the migration of front-end frameworks into modular library dependencies, increasing code reusability by 33% for front-end and 10% for back-end operations.",
+      "Designed and deployed a location tracking feature in a master module, increasing retail check-in efficiency by 30% through real-time automation.",
+      "Improved retail employee project assignment by developing a SwiftUI ‘Task’ page with Gantt Chart and Kanban UI, enhancing project management efficiency.",
+      "Optimized SQL operations in the internal CRM app 'Contact', reducing load and response times by 20% through comprehensive testing and subquery optimization."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Software Developer Intern",
+    company_name: "Talker.Network",
+    icon: talkernetwork,
+    iconBg: "FFFFFF",
+    date: "July 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Enhanced marketing program visibility by 15% through the migration from HTML/CSS/JS to React.js and the development of a settings dashboard in Flask.",
+      "Designed a Node.js security API and enabled HTTPS for HTTP servers, fixing 86 common vulnerabilities in microservices and improving overall security.",
+      "Streamlined account management by 30% through the development of an Admin dashboard for user activity monitoring and web functionality configuration.",
+      "Reworked HTTP logic to default to HTTP with an on-demand switch to HTTPS, enhancing security while maintaining network protocol flexibility."
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  },  
 ];
 
 const projects = [
@@ -262,4 +225,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
