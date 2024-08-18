@@ -20,6 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import pandas from "./tech/pandas.png";
+import cpp from "./tech/cpp.png";
+import swift from "./tech/swift.png";
+import sql from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,4 +70,9 @@ export {
   apple,
   talkernetwork,
   trl11,
+  python,
+  swift,
+  pandas,
+  sql,
+  cpp,
 };

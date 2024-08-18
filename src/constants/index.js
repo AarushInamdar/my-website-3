@@ -15,17 +15,18 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
   apple,
   talkernetwork,
-  trl11
+  trl11,
+  pandas,
+  cpp,
+  swift,
+  python,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -64,32 +65,32 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C/C++",
+    icon: cpp,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Swift",
+    icon: swift,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Pandas",
+    icon: pandas,
   },
   {
     name: "Node JS",
