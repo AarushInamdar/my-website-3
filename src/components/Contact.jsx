@@ -30,7 +30,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -48,7 +48,6 @@ const Contact = () => {
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
-
           setForm({
             name: "",
             email: "",
@@ -58,22 +57,16 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       )
-      .catch(
-        () => {
-          setLoading(false);
-          alert("Please fill form correctly.")
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        }
-      );
+      .catch((error) => {
+        setLoading(false);
+        console.error(error);
+        alert("An unexpected error occurred. Please try again.");
+      });
   };
+  
 
   return (
     <div
