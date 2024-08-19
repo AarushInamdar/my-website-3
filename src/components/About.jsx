@@ -35,6 +35,29 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
+export const AboutCard = ({ index, icon }) => (
+  <Tilt className='xs:w-[250px] w-full'>
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+    >
+    <div
+      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+    >
+      <div
+        className='bg-tertiary rounded-[20px] min-h-[280px] flex justify-center items-center overflow-hidden'
+      >
+        <img
+          src={icon}
+          alt='service-icon'
+          className='w-full h-full object-cover rounded-[20px]'
+        />
+      </div>
+    </div>
+    </motion.div>
+  </Tilt>
+);
+
 const About = () => {
   return (
     <>

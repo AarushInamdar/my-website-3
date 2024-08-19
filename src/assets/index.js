@@ -42,7 +42,8 @@ import cinemaTrends from "./cinemaTrends.png";
 import realEstateXplorer from "./realEstateXplorer.png";
 import shadowCalculator from "./shadowCalculator.png";
 import cryptoApp from "./cryptoApp.png";
-import ticTacToe from "./tic_tac_toe.png"
+import ticTacToe from "./tic_tac_toe.png";
+import headshot from "./headshot.jpg"
 
 
 export {
@@ -88,4 +89,5 @@ export {
   cinemaTrends,
   shadowCalculator,
   ticTacToe,
+  headshot,
 };

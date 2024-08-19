@@ -152,7 +152,7 @@ const experiences = [
     title: "Software Developer Intern",
     company_name: "Talker.Network",
     icon: talkernetwork,
-    iconBg: "FFFFFF",
+    iconBg: "FFFFFFF",
     date: "July 2023 - August 2023",
     points: [
       "Enhanced marketing program visibility by 15% through the migration from HTML/CSS/JS to React.js and the development of a settings dashboard in Flask.",
