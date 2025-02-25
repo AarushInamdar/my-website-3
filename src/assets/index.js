@@ -33,6 +33,7 @@ import tesla from "./company/tesla.png";
 import apple from "./company/apple.png";
 import trl11 from "./company/trl11.png";
 import talkernetwork from "./company/talkernetwork.png";
+import sap from "./company/sap.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -90,4 +91,5 @@ export {
   shadowCalculator,
   ticTacToe,
   headshot,
+  sap
 };

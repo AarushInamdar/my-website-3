@@ -29,7 +29,8 @@ import {
   realEstateXplorer,
   shadowCalculator,
   cryptoApp,
-  ticTacToe
+  ticTacToe,
+  sap
 } from "../assets";
 
 export const navLinks = [
@@ -122,6 +123,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineering and QA Intern",
+    company_name: "SAP SE",
+    icon: sap,
+    iconBg: "#E6DEDD",
+    date: "December 2024 - June 2025",
+    points: [
+      "Improved test coverage by 40% and accelerated deployment cycles by 20% by architecting a testing suite leveraging Cypress.js and Docker.",
+      "Decreased manual testing overhead by 35% by engineering automated E2E testing workflows in QMate, enabling endpoint verification.",
+      "Reduced regression errors by 25% by automating user interactions and scenarios using SAP STEP, React, and Java in a 4 tier testing stack.",
+      "Authored architectural proposals and comprehensive documentation streamlining test coverage processes, improving backend API and frontend efficiency by 30%, and made a scalable and efficient development pipeline via Behavior Driven Development standards."
+    ],
+  },
   {
     title: "Software Engineering Intern",
     company_name: "TRL11",
